@@ -1,0 +1,28 @@
+body {
+  margin: 30px;
+}
+
+table.tbl {
+  border-collapse: collapse;
+  overflow-x: auto;
+  text-align: center;
+}
+
+table.tbl td {
+  width: 25%;
+  height: auto;
+  text-align: center;
+}
+
+@media screen and (max-width:450px) {
+  body {
+    margin: 3vw;
+  }
+
+  table.tbl {
+    border-collapse: collapse;
+    overflow-x: auto;
+    font-size: 4vw;
+    text-align: center;
+  }
+}
